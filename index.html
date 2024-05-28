@@ -1,20 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minhas Receitas</title>
-</head>
-<body>
-    <img src="./img/primeirapage.jpg" alt="foto ilustrativa de um prato com talheres">
-    <p><strong>Bem-vindo as minhas receitas, seu destino para receitas deliciosas e acessíveis! Descubra como cozinhar pratos incríveis com receitas detalhadas.</strong></p>
-    <ul>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receitas odin</title>
+    <link rel="stylesheet" href="./estilos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&display=swap"
+      rel="stylesheet"
+    />
 
-        <li><h4> <a href="./recipes/pudim.html" target="_blank">Pudim:</a></a></h4> Uma sobremesa clássica e irresistível, feita com leite condensado, leite e ovos, caramelizada para um toque perfeito de doçura.</li>
-       <li> <h4> <a href="./recipes/lasanha.html" target="_blank">Lasanha:</a></h4> Uma opção reconfortante, com camadas de massa, molho de carne ou vegetais, e muito queijo derretido.</li>
-       <li> <h4> <a href="./recipes/bolo_fubá.html" target="_blank">Bolo de fubá cremoso:</a></h4> Uma delícia brasileira, com uma textura única e cremosa, ideal para acompanhar o café.
-        Nossa missão é inspirar você a criar refeições que encantam. Junte-se à nossa comunidade e transforme sua cozinha!</li>
-    </ul>
- 
-</body>
+    <style>
+      a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 5px;
+        background-color: #1e1d30;
+        border-radius: 100px;
+        transition: background-color 0.3s;
+      }
+      a:hover {
+        background-color: #637bca;
+      }
+      body {
+        background: #1e1d30;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="projetos">
+      <img src="./img/odinpage.png" width="300px" alt="foto do odin da page" />
+      <p class="page">
+        <strong
+          >Bem-vindo as minhas receitas, seu destino para receitas deliciosas e
+          acessíveis! Descubra como cozinhar pratos incríveis com receitas
+          detalhadas.</strong
+        >
+      </p>
+
+      <h4>
+        <a href="./recipes/pudim.html" target="_blank">
+          <p class="titulo">pudim:</p>
+        </a>
+      </h4>
+      <p class="text">
+        Uma sobremesa clássica e irresistível, feita com leite condensado, leite
+        e ovos, caramelizada para um toque perfeito de doçura.
+      </p>
+
+      <h4>
+        <a href="./recipes/lasanha.html" target="_blank">
+          <p class="titulo">Lasanha:</p>
+        </a>
+      </h4>
+      <p class="text">
+        Uma opção reconfortante, com camadas de massa, molho de carne ou
+        vegetais, e muito queijo derretido.
+      </p>
+
+      <h4>
+        <a href="./recipes/bolo_fubá.html" target="_blank">
+          <p class="titulo">Bolo de fubá cremoso:</p>
+        </a>
+      </h4>
+      <p class="text">
+        Uma delícia brasileira, com uma textura única e cremosa, ideal para
+        acompanhar o café. Nossa missão é inspirar você a criar refeições que
+        encantam. Junte-se à nossa comunidade e transforme sua cozinha!
+      </p>
+    </div>
+  </body>
 </html>

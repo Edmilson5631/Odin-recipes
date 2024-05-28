@@ -1,0 +1,38 @@
+.page {
+  font-size: 32px;
+  color: #8794bd;
+}
+
+.projetos {
+  font-family: "Allura", cursive;
+  text-align: center;
+}
+
+.titulo {
+  color: white;
+  font-size: 25px;
+}
+
+.text {
+  text-align: center;
+  color: #8794bd;
+  margin: auto;
+  padding: auto;
+  border: auto;
+  font-size: 25px;
+}
+
+.pudim{
+  text-align: center;
+  display: auto;
+}
+
+.titulopudim{
+  font-size: auto;
+}
+
+.textpudim{
+
+
+
+}
