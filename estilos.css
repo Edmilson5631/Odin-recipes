@@ -1,6 +1,6 @@
 .page {
-  font-size: 32px;
-  color: #8794bd;
+  font-size: 30px;
+  color: #ffffff;
 }
 
 .projetos {
@@ -14,25 +14,46 @@
 }
 
 .text {
-  text-align: center;
-  color: #8794bd;
-  margin: auto;
-  padding: auto;
-  border: auto;
+  color: #ffffff;
   font-size: 25px;
 }
 
-.pudim{
+.pudim {
+  background: #1e1d30;
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 1.6;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+* {
   text-align: center;
-  display: auto;
 }
 
-.titulopudim{
-  font-size: auto;
+.lasanha {
+  background: #1e1d30;
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 1.6;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
-.textpudim{
-
-
-
+.fubá {
+  background: #1e1d30;
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 1.6;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  color: white;
 }
