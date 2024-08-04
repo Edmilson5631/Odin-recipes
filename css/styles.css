@@ -1,0 +1,50 @@
+html{
+    font-family: Helvetica;
+    background-color: #1e1d30;
+}
+
+
+.container img{
+    width: 250px;
+    margin: 20px auto;
+}
+
+.container{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px 50px;
+    text-align: center;
+    background-color: #272738;
+    border-radius: 50px;
+}
+
+.container h1{
+    color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.container p{
+    border: 2px solid #39375c;
+    color:#fff;
+    margin: 30px;
+    padding: 20px;
+    background-color: #2b2a46;
+    border-radius: 50px;
+   
+}
+
+.container a{
+    color: #39375c;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #2b2a46;
+    border-radius: 50px;
+   
+}
+
+.container a:hover{
+    color: #fff;
+}
+
+
