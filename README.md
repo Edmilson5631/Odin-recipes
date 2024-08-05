@@ -1,0 +1,3 @@
+Este é meu primeiro projeto usando todo o conhecimento que adquiri até agora nos fundamentos do HTML.
+
+Neste projeto, criarei uma página de receitas usando elementos e tags como h1, p, em, strong, img scr e assim por diante...
